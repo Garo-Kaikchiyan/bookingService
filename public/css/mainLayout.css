@@ -1,0 +1,115 @@
+body {
+    margin: 0;
+    font-family: 'Courier New', Courier, monospace;
+}
+
+header {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    height: 17vh;
+    background-color: #373e68;
+    padding: 0 70px;
+    
+}
+
+h3 {
+    color: white;
+    font-size: 32px;
+}
+
+button, input[type=submit] {
+    background-color: #0079fe;
+    color: white;
+    font-size: 16px;
+    font-weight: 600;
+    border: 2px solid #0079fe;
+    border-radius: 8px;
+    padding: 8px;
+    margin: 0 8px;
+    font-family: 'Courier New', Courier, monospace;
+}
+
+button:hover {
+    background-color: #373e68;
+}
+
+.selected, input[type=submit]:focus {
+    background-color: white;
+    color: #0079fe;
+}
+
+.selected:hover {
+    background-color: white;
+}
+
+main {
+    min-height: 73vh;
+    padding: 0 70px;
+}
+
+form {
+    display: flex;
+    flex-direction: column;
+    padding: 50px 100px;
+}
+
+label {
+    margin-bottom: 8px;
+}
+
+input{
+    margin-bottom: 20px;
+    border: none;
+    border-bottom: 1px solid #373e68;
+}
+
+.registerBtn {
+    width: 100px;
+    align-self: flex-end;
+}
+
+table {
+    border: 2px solid #0079fe;
+    border-radius: 8px;
+    margin: 50px auto;
+}
+
+table th {
+    border-bottom: 2px solid #0079fe;
+    padding: 2px 8px;
+}
+
+table button {
+    background-color: green;
+    border: none;
+    height: 100%;
+    width: 100%;
+    margin: auto;
+}
+
+td {
+    text-align: center;
+    height: 60px;
+    width: 60px;
+}
+
+input[type=checkbox] {
+    margin: 0 8px;
+}
+
+.selectedSeat, .selectedSeat:hover {
+    background-color: red;
+}
+
+footer {
+    height: 10vh;
+    background-color: #373e68;
+    text-align: center;
+    padding-top: 8px;
+}
+
+p {
+    color: white;
+    font-size: 12px;
+}

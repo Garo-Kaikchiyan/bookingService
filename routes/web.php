@@ -30,7 +30,6 @@ Route::get('/offices', function () {
 
 Route::get('/offices/{office:name}', function (Office $office) {
     return view('bookSeat', [
-        //'seats' => Booking::find($office->seats)->seat,
         'seats' => OfficeSeat::with('bookings')->where('office_id', '=', $office->id)->get(),
         'bookingTypes' => BookingType::all()
     ]);

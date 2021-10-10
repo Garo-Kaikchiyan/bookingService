@@ -1,4 +1,4 @@
- @extends('layout')
+ @extends('layout', ['page' => 'booking'])
     @section('main')
         <main id="main">
             <table>
@@ -11,7 +11,7 @@
                             @foreach ($bookingTypes as $bookingType)
                                 @if (isset($seat->bookings) && $seat->bookings->contains('booking_type_id', $bookingType->id))
                                     <th> 
-                                        <button class="selectedSeat" id="{{$bookingType->name}}">{{$bookingType->name}}</button>
+                                        <button disabled name="bookingType" value="{{$bookingType->id}}">{{$bookingType->name}}</button>
                                     </th>
                                 @else
                                     <th> 

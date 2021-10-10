@@ -1,0 +1,199 @@
+body {
+    margin: 0;
+    font-family: Roboto, sans-serif;
+  }
+  
+  header {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    height: 80px;
+    padding: 0 70px;
+    box-shadow: -4px 5px 8px 0px rgba(113, 113, 113, 0.43);
+    border-bottom-left-radius: 25px;
+  }
+  
+  h3 {
+    color: #141e3c;
+    font-size: 28px;
+  }
+  
+  p {
+    color: white;
+    font-size: 12px;
+  }
+  
+  h4 {
+    color: #141e3c;
+    text-align: left;
+    margin: 20px;
+  }
+  
+  button {
+    background-color: #4a8fe2;
+    color: white;
+    font-size: 12px;
+    font-weight: 500;
+    border-radius: 25px;
+    padding: 8px 20px;
+    margin: 0 8px;
+    font-family: Roboto, sans-serif;
+    border: none;
+  }
+  
+  button:hover {
+    background-color: #141e3c;
+  }
+  
+  .selected,
+  input[type="submit"]:focus {
+    background-color: #141e3c;
+    color: white;
+  }
+  
+  main {
+    min-height: 73vh;
+    padding: 0 70px;
+    text-align: center;
+    margin: 15vh auto;
+  }
+  .wrapper {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    color: white;
+  }
+  
+  .wrapper div {
+    padding: 20px;
+    background-color: #4a8fe2;
+    margin: 8px;
+    width: 500px;
+    border-radius: 8px;
+    box-shadow: -4px 5px 8px 0px rgba(113, 113, 113, 0.43);
+  }
+  
+  .wrapper div:hover {
+    background-color: #141e3c;
+  }
+  
+  form {
+    display: flex;
+    flex-direction: column;
+    padding: 50px 100px;
+    text-align: left;
+  }
+  
+  label {
+    margin-bottom: 8px;
+  }
+  
+  input {
+    margin-bottom: 20px;
+    border: none;
+    border-bottom: 1px solid #141e3c;
+  }
+  
+  input:focus-visible {
+    outline-color: transparent;
+  }
+  
+  input[type="submit"] {
+    color: white;
+    padding: 8px;
+    background-color: #4a8fe2;
+    margin: 8px 0;
+    width: 100px;
+    border: none;
+    border-radius: 8px;
+    box-shadow: -4px 5px 8px 0px rgba(113, 113, 113, 0.43);
+  }
+  
+  .registerBtn {
+    width: 100px;
+    align-self: flex-end;
+  }
+  
+  .searchField {
+    width: 800px;
+    margin: auto;
+    padding: 8px;
+    border-radius: 8px;
+    box-shadow: -4px 5px 8px 0px rgba(113, 113, 113, 0.43);
+  }
+  
+  .searchField input[type="text"] {
+    width: 80%;
+    margin-right: 8px;
+  }
+  
+  .officeCards, .timeCards, .hourCardWrapper {
+    display: flex;
+    justify-content: space-evenly;
+    align-items: center;
+    flex-wrap: wrap;
+    width: 80%;
+    margin: auto;
+  }
+  
+  .officeCard {
+    color: white;
+    padding: 48px;
+    background: linear-gradient(331deg, rgba(74,143,226,1) 31%, rgba(251,251,251,1) 100%);
+    margin: 8px;
+    width: 100px;
+    border: none;
+    border-radius: 8px;
+    box-shadow: -4px 5px 8px 0px rgba(113, 113, 113, 0.43);
+  }
+  
+  .officeCard:hover {
+      background: #4a8fe2;
+  }
+  
+  .hourCardWrapper {
+      width: 40%;
+  }
+  
+  table {
+    border: 2px solid #141e3c;
+    border-radius: 8px;
+    margin: 50px auto;
+  }
+  
+  table th {
+    border-bottom: 2px solid #141e3c;
+    padding: 2px 8px;
+  }
+  
+  table button {
+    background-color: green;
+    border: none;
+    height: 100%;
+    width: 100%;
+    margin: auto;
+  }
+  
+  td {
+    text-align: center;
+    height: 60px;
+    width: 60px;
+  }
+  
+  input[type="checkbox"] {
+    margin: 0 8px;
+  }
+  
+  .selectedSeat,
+  .selectedSeat:hover {
+    background-color: red;
+  }
+  
+  footer {
+    height: 10vh;
+    background-color: #141e3c;
+    text-align: center;
+    padding-top: 8px;
+    box-shadow: -4px -5px 8px 0px rgba(113, 113, 113, 0.43);
+  }
+  

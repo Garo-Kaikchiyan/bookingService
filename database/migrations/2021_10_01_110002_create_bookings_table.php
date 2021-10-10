@@ -19,6 +19,7 @@ class CreateBookingsTable extends Migration
             $table->foreignId('office_seat_id');
             $table->foreignId('employee_id');
             $table->foreignId('booking_type_id');
+            $table->date('booked_date');
             $table->timestamps();
         });
     }

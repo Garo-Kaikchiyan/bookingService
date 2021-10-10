@@ -9,7 +9,7 @@ class OfficeSeat extends Model
 {
     use HasFactory;
 
-    protected $fillable = ['name'];
+    protected $fillable = ['name', 'office_id'];
 
     public function bookings()
     {

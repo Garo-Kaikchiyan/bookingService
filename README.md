@@ -5,11 +5,11 @@ The user can:
 - register employees with their names, payroll number and email address.
 - create office seat bookings for registered employees.
 
- A seat cannot be booked if:
- - the timeslot is already booked
- - the seat is booked for the day
+ A seat cannot be booked:
+ - if the timeslot is already booked
+ - if the seat is booked for the whole day
  - on weekends
- A seat cannot be booked for the day if there already is an hour booking for that seat.
+ - for the whole day if there already is a booking for an hour
 
 This is my first Laravel project. I used Laravel's Sail command-line interface to set it up.
 This application uses a MySQL database. Migrations for all tables can be found in /database/migrations.

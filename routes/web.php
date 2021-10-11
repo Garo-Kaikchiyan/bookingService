@@ -35,13 +35,10 @@ Route::get('/regOffice', function () {
 
 Route::post('/regOffice', [OfficeController::class, 'register']);
 
-Route::get('/offices', [BookingController::class, 'bookingStepOne']);
+Route::get('/book-seat/step-one', [BookingController::class, 'bookingStepOne']);
 
-Route::post('/offices/book-seat',[BookingController::class, 'bookingStepTwo']);
+Route::post('/book-seat/step-two',[BookingController::class, 'bookingStepTwo']);
 
-// function (Office $office) {
-//     dd($office);
-//     return view('bookSeat', [
-//         'seats' => OfficeSeat::with('bookings')->where('office_id', '=', $office->id)->get(),
-//         'bookingTypes' => BookingType::all()
-//     ]
+Route::post('/book-seat/step-three',[BookingController::class, 'bookingStepThree']);
+
+

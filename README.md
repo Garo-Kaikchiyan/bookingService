@@ -1,5 +1,6 @@
 
 Welcome to my booking project! This application allows the user to book seats for employees in an office for an hour or a full day. 
+
 The user can:
 - create offices with an N amount of seats.
 - register employees with their names, payroll number and email address.
